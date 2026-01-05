@@ -1,7 +1,7 @@
 -- /etc/openresty/lua/lib/img_service.lua
 local http  = require "resty.http"
 local redis = require "resty.redis"
-local imagick = require "resty.imagick"  -- lua-resty-imagick (ImageMagick bindings)
+local imagick = require "magick"  -- lua-resty-imagick (ImageMagick bindings)
 
 local _M = {}
 
